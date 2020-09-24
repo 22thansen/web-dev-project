@@ -8,26 +8,31 @@
     
   </head>
   
+  <!-- I think I get why CSS was invented. Inline customization with html is pretty unreadable. -->
   <style>
+    
     h1 {
       text-align: center;
       color: rgb(50,50,50);
       font-family: "Impact";
       font-size: 4em;
     }
+    
     h2 {
       font-family: "Impact";
       font-size:3em;
       color: rgb(25,25,25);
       border: 2px dotted darkslateblue;
     }
+    
     p {
       text-align: justify;
       font-family: "Nunito";
       
     }
+    
     img {
-      width: 250px;
+      height: 175px;
       display:inline-block;
     }
     
@@ -77,9 +82,20 @@
     
     <div id = "videos">
       <h2>Video</h2>
-      <video>
-        NotImplementedException
-      </video>
+      <figure>
+        <iframe src="https://commons.wikimedia.org/wiki/File:20200722_182642_taughannock_falls_waterfall.webm?embedplayer=yes" width="512" height="288" frameborder="0" ></iframe>
+        
+        <figcaption style="width: 512px; text-align: center; font-family:'Nunito'">
+          
+          <a href="https://commons.wikimedia.org/wiki/File:20200722_182642_taughannock_falls_waterfall.webm" title="via Wikimedia Commons">G. Edward Johnson</a> / <a href="https://creativecommons.org/licenses/by/3.0">CC BY</a>
+          
+          <!-- Not the same format as WikiMedia provides, so it is not in use.
+          “<a href="https://commons.wikimedia.org/wiki/File:20200722_182642_taughannock_falls_waterfall.webm" title="via Wikimedia Commons">Taughannock Falls</a>” by <a href="https://commons.wikimedia.org/wiki/File:20200722_182642_taughannock_falls_waterfall.webm" title="via Wikimedia Commons">G. Edward Johnson</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>.
+          -->
+          
+        </figcaption>
+        
+      </figure>
     </div>
     
   </body>
