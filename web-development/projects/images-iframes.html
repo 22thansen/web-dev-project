@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <title>Tanner Hansen|Images &amp; IFrames</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+    
+  </head>
+  
+  <!--
+      I think I get why CSS was invented. Inline customization with html is pretty unreadable.
+      Also it sucks to go to each line and change the inline style so i kinda winged how to do CSS.
+      Unsure if doing it like this is the best practices, but whatever :P
+  -->
+  
+  <style>
+    
+    h1 {
+      text-align: center;
+      color: rgb(240,240,240);
+      font-family: "Impact";
+      font-size: 4em;
+    }
+    
+    h2 {
+      font-family: "Impact";
+      font-size:3em;
+      color: rgb(250,250,250);
+      border: 2px dotted;
+      border-color: blanchedalmond;
+    }
+    
+    p {
+      color: rgb(255,255,255);
+      text-align: justify;
+      font-family: "Nunito";
+    }
+    
+    img {
+      height: 175px;
+      display:inline-block;
+      border: 4px solid;
+      border-color:lightgray;
+    }
+    
+    a {
+      color: rgb(175,230,255);
+    }
+    
+  </style>
+  
+  <!-- URL to the image background texture used (it is CC0) : cc0.link/a/Chip005 -->
+  <body style="background-image: url(assets/Chip005_2K_Color.png); background-repeat: repeat">
+    
+    <div style="background-color:rgba(0,0,0,0.66)">
+    
+      <h1>About Me</h1>
+
+      <hr/>
+      
+      <!-- About me -->
+      <div style="width: 95%; margin:auto">
+        <p> Hello, my name is Tanner. I like to do stuff on the computer! I like to code, and my favorite programming language is <strong>C#</strong>, but I occasionally use other languages like <strong>Python</strong> or <strong>Javascript</strong> <em>(technically a modified version called p5.js, used for the HTML Canvas)</em>. I try to make video games with code, but I have a bad habit of never committing to a single project and finishing it. I also like to play the video game Minecraft; a few years ago I was actually part of a build-team where we would brainstorm on an idea and build it in-game. It was a lot of fun and I think it helped me become a better artist in general. Speaking of art, I also enjoy making a special type of art called pixel art. I'm still a beginner and I'm a little uncomfortable with animation, but it's been fun making little images with the restrictive-retro style. Similar to the retro-aspect of pixel art, I've made chiptune music in software trackers like FamiTracker or OpenMPT. They're nothing too crazy, but I enjoy the process of it even if it's a little tedious. I'm proud of what I've made in the past, and when I get some spare time away from school, I'd like create more stuff! Lastly, I also love to go on hikes. It helps my mental state and nature is <em>such</em> a beauty. I didn't hike to the video below, but it would seem like a cool hike to go on. </p>
+      </div>
+
+      <div id = "images">
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;Images</h2>
+        <hr />
+
+        <!-- "Apple Laptop Computer with Headphones, Camera, and Open Notebook" by Image Catalog is marked under CC0 1.0. To view the terms, visit https://creativecommons.org/licenses/cc0/1.0/ -->
+
+        <img src="https://live.staticflickr.com/8802/17652700524_53616d0344_b.jpg" alt="Apple Laptop Computer with Headphones, Camera, and Open Notebook" title='"Apple Laptop Computer with Headphones, Camera, and Open Notebook" by Image Catalog is marked under CC0 1.0. To view the terms, visit https://creativecommons.org/licenses/cc0/1.0/' />
+
+
+        <!-- "html php java source code" by markus spiske is marked under CC0 1.0. To view the terms, visit https://creativecommons.org/licenses/cc0/1.0/ -->
+
+        <img src="https://live.staticflickr.com/4648/38891650224_be140702d8_b.jpg" alt="html php java source code" title='"html php java source code" by markus spiske is marked under CC0 1.0. To view the terms, visit https://creativecommons.org/licenses/cc0/1.0/' />
+
+
+        <!-- "Minecraft Deferred Rendering" by vahid.kazemi is marked under CC PDM 1.0. To view the terms, visit http://creativecommons.org/publicdomain/zero/1.0/deed.en -->
+
+        <img src="https://live.staticflickr.com/7191/6828971230_266e6f32d7_b.jpg" alt="Minecraft Deferred Rendering" title='"Minecraft Deferred Rendering" by vahid.kazemi is marked under CC PDM 1.0. To view the terms, visit http://creativecommons.org/publicdomain/zero/1.0/deed.en' />
+
+
+        <!-- Marasmusine at en.wikipedia / Public domain -->
+
+        <a title="Marasmusine at en.wikipedia / Public domain" href="https://commons.wikimedia.org/wiki/File:SoundtrackerEditor.png" target="_blank">
+          <img alt="SoundtrackerEditor" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/SoundtrackerEditor.png" />
+        </a>
+
+
+        <!-- Buch at http://blog-buch.rhcloud.com / CC0 (public domain); Arrangement of the CC0 assets by Tanner Hansen; downloaded from opengameart.org -->
+
+        <a title="Buch at http://blog-buch.rhcloud.com / CC0 (public domain)" href="https://opengameart.org/content/a-platformer-in-the-forest" target="_blank">
+          <img alt="A Platformer in the Forest" src="./assets/a_platformer_in_the_forest.png" />
+        </a>
+
+      </div>
+
+      <div id = "videos">
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;Video</h2>
+        <figure style="background-color: rgb(50,50,50); width:512px">
+          <iframe src="https://commons.wikimedia.org/wiki/File:20200722_182642_taughannock_falls_waterfall.webm?embedplayer=yes" width="512" height="288" frameborder="0" alt="After a long hike, you find yourself standing in front of a 200+ foot high waterfall. It fills you with determination."></iframe>
+
+          <figcaption style="color: white; width: 512px; text-align: center; font-family:'Nunito'">
+
+            <a href="https://commons.wikimedia.org/wiki/File:20200722_182642_taughannock_falls_waterfall.webm" title="via Wikimedia Commons">G. Edward Johnson</a> / <a href="https://creativecommons.org/licenses/by/3.0">CC BY</a>
+
+            <!-- Not the same format as WikiMedia provides, so it is not in use.
+            “<a href="https://commons.wikimedia.org/wiki/File:20200722_182642_taughannock_falls_waterfall.webm" title="via Wikimedia Commons">Taughannock Falls</a>” by <a href="https://commons.wikimedia.org/wiki/File:20200722_182642_taughannock_falls_waterfall.webm" title="via Wikimedia Commons">G. Edward Johnson</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>.
+            -->
+
+          </figcaption>
+
+        </figure>
+      </div>
+
+      <br/><br/>
+      
+    </div>
+    
+    <br/><br/><br/><br/><br/>
+      
+  </body>
+  
+</html>
+
+
+
+
+
