@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+
+<!--
+
+Create a contact page for a website.
+Include all required elements in the rubric.
+Link this page to your "index.html" project home page.
+Submit the completed project as a .html file to Canvas.
+
+- Background Image & Color
+- H1 Header
+- Google Fonts (1+)
+- Tables (1+)
+- Merged Table Cells (rowspan & colspan)
+- Form (functional submit & reset buttons)
+- Form Inputs (text, radio buttons, checkbox, drop-down, text field)
+- Field Description (fieldset, legend, placeholder)
+- Button Link (1+)
+- HTML Comment (1+)   Does this count? haha
+
+-->
+
+<html>
+  
+  <head>
+  <title>Tanner Hansen | Tables &amp; Forms</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      background-color: #888;
+    }
+
+    p {
+      color: rgb(255, 255, 255);
+      text-align: justify;
+      font-family: "Nunito";
+    }
+
+    a {
+      color: rgb(175, 230, 255);
+    }
+
+    nav {
+      font-size: 2em;
+      text-align: center;
+    }
+
+    nav a {
+      color: aliceblue;
+
+    }
+
+    header {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+      position: fixed;
+    }
+
+    .container {
+      background-color: black;
+      opacity: 0.75;
+    }
+
+    h1 {
+      font-family: serif;
+      font-weight: 700;
+      font-size: 4em;
+      text-align: center;
+      color: white;
+    }
+
+    table {
+      margin: 0 auto;
+      width: 700px;
+      background-color: #222;
+      border: 5px dotted black;
+      color: indianred;
+    }
+
+    td,
+    th {
+      font-size: 1.5em;
+      color: indianred;
+      border: 2px solid white;
+      text-align: center;
+    }
+    
+    td {
+      color: white;
+      background-color: #333;
+      border: none;
+    }
+    
+    
+  </style>
+
+</head>
+
+<body style="background-image: url(../assets/Chip005_2K_Color.png); background-repeat: repeat">
+
+  <header class="container">
+    <h1>Contact Us</h1>
+  </header>
+
+  <main>
+    <br><br><br><br><br><br>
+    <hr>
+    <br>
+
+    <table>
+      <tr>
+        <th colspan="3">Contact Information:</th>
+      </tr>
+      <tr>
+        <th>Phone Number: </th>
+        <td>000-555-5555</td>
+        <td>111-555-555</td>
+      </tr>
+      <tr>
+        <th>Email &amp; Website</th>
+        <td>johndoe@example.com</td>
+        <td>johndoe.example.com</td>
+      </tr>
+      <tr>
+        <th>address</th>
+        <td colspan="2">123 Main Street <br> New York, NY <br> 10030</td>
+      
+    </table>
+    
+    <br><br><br>
+    
+    <form>
+      <table>
+        <tr>
+          <th colspan="2">Contact Form</th>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label>Name: </label>
+            <input type="text" placeholder="John Doe"><br>
+            <label>Email: </label>
+            <input type="text" placeholder="johndoe@example.com"><br>
+            <label>Subject: </label>
+            <input type="text" placeholder="Hello!"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>School Connection: </label><br>
+            <input type="radio" name="schoolConnection"> Student <br>
+            <input type="radio" name="schoolConnection"> Parent <br>
+            <input type="radio" name="schoolConnection"> Faculty <br>
+          </td>
+          <td>
+            <label>Contact Type: </label><br>
+            <input type="checkbox" class="contactType"> Compliment <br>
+            <input type="checkbox" class="contactType"> Suggestion <br>
+            <input type="checkbox" class="contactType"> Complaint <br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Additional Comments: </label><br>
+            <textarea rows="6" cols="25" placeholder="Comments"></textarea>
+          </td>
+          <td>
+            <label>How would you like us to reply?</label><br>
+            <select name="method">
+              <option>-- Select an Option --</option>
+              <option>Curteously</option>
+              <option>Angrily</option>
+              <option>In Spanish</option>
+              <option>in memes</option>
+              <option>Formally.</option>
+              <option>informally</option>
+              <option>an audio file</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="Submit Form" style="margin-right:50px;">
+            <input type="reset" value="Clear Form">
+          </td>
+        </tr>
+      </table>
+    </form>
+    
+
+    <br><br><br>
+  </main>
+
+  <div class="container">
+    <hr><br>
+
+    <footer style="text-align: center; font-size: 1.5em;">
+
+      <a href="../index.html">Home page</a>
+    </footer>
+    
+    <br>
+  </div>
+
+</body></html>
