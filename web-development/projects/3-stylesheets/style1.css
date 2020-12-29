@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  background-color: #ddd;
+}
+
+
+#title-and-nav {
+  width: 100%;
+}
+
+
+
+/* Title */
+
+header {
+  height: 128px;
+  width: 85%;
+  background-color: forestgreen;
+  float: left;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  font-family: Impact;
+  font-weight: 100;
+  font-size: 4em;
+  line-height: 128px;
+}
+
+/* End Title */
+
+
+
+/* Navigation */
+
+nav {
+  background-color: red;
+  width: 15%;
+  height: 512px;
+  float: right;
+}
+
+nav ul {
+  background-color: orange;
+  list-style-type: none;
+  height: 100%;
+  width: 100%; 
+}
+
+nav ul li {
+  height: 25%;
+  width: 100%;
+  background-color: black;
+  display: block;
+  
+  
+}
+
+nav ul li a {
+  text-align: center;
+  color: whitesmoke;
+  background-color: #444;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+}
+
+nav ul li a:active {
+  background-color: #222;
+}
+
+
+#home {
+  background-color: forestgreen;
+}
+
+#home:hover {
+  background-color: #117A11;
+}
+
+#home:active {
+  background-color: #006900;
+}
+
+/* End Navigation */
+
+
+/* Main Content */
+main {
+  float: left;
+  clear: none;
+  text-align: justify;
+  text-justify: inter-word;
+  width: 60%;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+main h2 {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+main p {
+  font-family: sans-serif;
+}
+
+
+
+/* Bonus Content */
+aside {
+  
+  float: left;
+  padding: 10px;
+  width: 20%;
+  margin-left: 5px;
+  background-color: #bbb;
+}
+
+aside h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: fantasy;
+  font-weight: 100;
+}
+
+aside p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: sans-serif;
+  font-size: 90%;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+footer p {
+  text-align: center;
+}
+
+
+
+#style-buttons {
+  clear:both;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  bottom: 30px;
+}
+
+
+#style-buttons #style-1 {
+  background-color: darkgrey;
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  border: none;
+  color: darkred;
+  margin: auto 30px;
+}
+
+#style-buttons #style-2 {
+  background-color: darkgrey;
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  border: none;
+  color: darkgreen;
+  margin: auto 30px;
+}
+
+#style-buttons #style-3 {
+  background-color: darkgrey;
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  border: none;
+  color: darkblue;
+  margin: auto 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

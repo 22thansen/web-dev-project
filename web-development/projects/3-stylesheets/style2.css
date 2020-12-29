@@ -1,0 +1,67 @@
+body {
+  
+}
+
+
+#title-and-nav {
+  
+}
+
+header {
+  height: 80px;
+  width: 80%;
+  background-color: darkslategray;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  
+}
+
+
+main {
+  color: green;
+}
+
+
+
+aside {
+  
+}
+
+
+
+footer {
+  
+}
+
+
+
+#style-buttons {
+  
+}
+
+#style-buttons #style-1 {
+  color: red;
+}
+
+#style-buttons #style-2 {
+  color: green;
+}
+
+#style-buttons #style-3 {
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
