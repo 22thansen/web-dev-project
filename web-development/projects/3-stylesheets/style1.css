@@ -193,8 +193,11 @@ footer p {
   height: 50px;
   border-radius: 25%;
   border: none;
-  color: #fef;
   margin: auto 30px;
+}
+
+#style-buttons #style-1 a {
+  color: #fef;
 }
 
 #style-buttons #style-2 {
@@ -203,8 +206,11 @@ footer p {
   height: 50px;
   border-radius: 25%;
   border: none;
-  color: #ffe;
   margin: auto 30px;
+}
+
+#style-buttons #style-2 a {
+  color: #ffe;
 }
 
 #style-buttons #style-3 {
@@ -213,8 +219,15 @@ footer p {
   height: 50px;
   border-radius: 25%;
   border: none;
-  color: #eff;
   margin: auto 30px;
+}
+
+#style-buttons #style-3 a {
+  color: #eff;
+}
+
+#style-buttons * a {
+  text-decoration: none;
 }
 
 

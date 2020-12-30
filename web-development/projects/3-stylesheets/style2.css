@@ -212,6 +212,10 @@ footer {
   background-color: var(--color-1);
 }
 
+#style-buttons #style-1 a {
+  color: #e07460;
+}
+
 
 #style-buttons #style-2 {
   background-color: var(--color-4);
@@ -228,6 +232,10 @@ footer {
 
 #style-buttons #style-2:hover {
   background-color: var(--color-1);
+}
+
+#style-buttons #style-2 a {
+  color: #7be882;
 }
 
 
@@ -248,6 +256,13 @@ footer {
   background-color: var(--color-1);
 }
 
+#style-buttons #style-3 a {
+  color: #88a7eb;
+}
+
+#style-buttons * a {
+  text-decoration: none;
+}
 
 
 
