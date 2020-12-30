@@ -196,6 +196,9 @@ aside p {
 
 footer {
   margin-top: 65em;
+  width: 100%;
+  text-align: center;
+  color: rgb(var(--dark-accent));
 }
 
 
