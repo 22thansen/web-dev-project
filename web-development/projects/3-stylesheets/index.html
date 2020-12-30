@@ -10,11 +10,13 @@
 <body>
 
   <!-- id's are good in case the page is long and u need to jump to a spot -->
-  
+
   <div id="title-and-nav">
-    <header id="title">
-      <h1>Site Title</h1>
-    </header>
+    <div id="header-container">
+      <header id="title">
+        <h1>Site Title</h1>
+      </header>
+    </div>
 
     <nav id="nav">
       <ul>
@@ -26,25 +28,34 @@
     </nav>
   </div>
 
-  <main id="main">
-    <h2>Main Content</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra, risus vel laoreet consectetur, erat metus euismod tortor, in consectetur purus neque sit amet elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a placerat est, ac semper turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque blandit est eleifend dolor fringilla cursus. Donec sagittis risus et ligula viverra mattis. Nunc facilisis orci quis adipiscing ullamcorper. Aenean magna velit, ultricies non lorem ut, venenatis lobortis tortor. Nunc gravida quam dapibus, consequat risus feugiat, malesuada neque. Fusce purus odio, sodales ac sapien nec, ultricies dignissim orci. Sed sed sem urna. Pellentesque ut sollicitudin arcu. Proin leo dolor, dapibus non dolor vel, ullamcorper dictum massa. Praesent non orci et nibh sodales luctus. Cras leo orci, malesuada id nisi vitae, molestie hendrerit nisl.</p>
-  </main>
+  <div id="content-container">
+    <content>
+      <div class="container" id="main-container">
+        <main id="main">
+          <h2>Main Content</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra, risus vel laoreet consectetur, erat metus euismod tortor, in consectetur purus neque sit amet elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a placerat est, ac semper turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque blandit est eleifend dolor fringilla cursus. Donec sagittis risus et ligula viverra mattis. Nunc facilisis orci quis adipiscing ullamcorper. Aenean magna velit, ultricies non lorem ut, venenatis lobortis tortor. Nunc gravida quam dapibus, consequat risus feugiat, malesuada neque. Fusce purus odio, sodales ac sapien nec, ultricies dignissim orci. Sed sed sem urna. Pellentesque ut sollicitudin arcu. Proin leo dolor, dapibus non dolor vel, ullamcorper dictum massa. Praesent non orci et nibh sodales luctus. Cras leo orci, malesuada id nisi vitae, molestie hendrerit nisl.</p>
+        </main>
+      </div>
 
-  <aside id="bonus-content">
-    <h2>Bonus Content</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra, risus vel laoreet consectetur, erat metus euismod tortor, in consectetur purus neque sit amet elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a placerat est, ac semper turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque blandit est eleifend dolor fringilla cursus. Donec sagittis risus et ligula viverra mattis. Nunc facilisis orci quis adipiscing ullamcorper. </p>
-  </aside>
+      <div class="container" id="bonus-container">
+        <aside id="bonus-content">
+          <h2>Bonus Content</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra, risus vel laoreet consectetur, erat metus euismod tortor, in consectetur purus neque sit amet elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a placerat est, ac semper turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque blandit est eleifend dolor fringilla cursus. Donec sagittis risus et ligula viverra mattis. Nunc facilisis orci quis adipiscing ullamcorper. </p>
+        </aside>
+      </div>
+
+    </content>
+  </div>
 
   <div id="style-buttons">
     <button href="#footer" id="style-1" onclick="document.getElementById('page-style').setAttribute('href', 'style1.css'); return false;">
       Style 1
     </button>
 
-    <button href="#footer"  id="style-2" onclick="document.getElementById('page-style').setAttribute('href', 'style2.css'); return false;">
+    <button href="#footer" id="style-2" onclick="document.getElementById('page-style').setAttribute('href', 'style2.css'); return false;">
       Style 2
     </button>
-    <button href="#footer"  id="style-3" onclick="document.getElementById('page-style').setAttribute('href', 'style3.css'); return false;">
+    <button href="#footer" id="style-3" onclick="document.getElementById('page-style').setAttribute('href', 'style3.css'); return false;">
       Style 3
     </button>
   </div>
@@ -54,8 +65,10 @@
     <p>&copy; Hansen | 2020</p>
   </footer>
 
-  <div id="right-bar"></div>
-  <div id="bottom-bar"></div>
+  <div id="box-0"></div>
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+  <div id="box-3"></div>
 
 
 
