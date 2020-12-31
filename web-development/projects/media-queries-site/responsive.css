@@ -1,0 +1,221 @@
+/* Nav */
+
+nav
+{
+  text-align: right;
+  margin-right: 40px;
+}
+
+nav ul li
+{
+  display: inline;
+  padding-left: 12px;
+  list-style-type: none;
+}
+
+nav a
+{
+  color: #277076;
+  font-family: impact;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav a:hover
+{
+  color: #78b8b9;
+}
+
+
+
+/* Header */
+
+header
+{
+  height: 300px;
+  background-color: red;
+  background-image: url('https://cdn.hipwallpaper.com/i/5/29/VRYCD3.jpg');
+  background-size: cover;
+  border-radius: 25px;
+}
+
+header h1
+{
+  color: white;
+  font-size: 60px;
+  font-family: Impact;
+  text-align: center;
+  padding-top: 80px;
+}
+
+
+
+/* Main */
+
+.leftColumn
+{
+  width: 74%;
+  float: left;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: antiquewhite;
+}
+
+.sideBar
+{
+  width: 20%;
+  float: right;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: azure;
+}
+
+
+
+/* Image Gallery */
+
+.imageGallery img
+{
+  width: 32.6%;
+  
+}
+
+
+
+/* Footer */
+
+footer 
+{
+  clear: both;
+  text-align: center;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+
+
+
+/* Responsive Rules */
+
+@media only screen and (max-width: 1024px)
+{
+  .imageGallery img
+  {
+    width: 49%;
+  }
+}
+
+
+
+
+/* Responsive Rules - Max Width 768 */
+
+@media only screen and (max-width: 768px)
+{
+  
+  /* Nav */
+  
+  nav
+  {
+    text-align: center;
+    margin: 0;
+    
+  }
+  
+  nav a
+  {
+    display: block;
+    border: 2px solid #277076;
+    padding: 2px 0;
+    border-radius: 25px;
+    margin: 2px 0;
+  }
+  
+  nav a:hover
+  {
+    background-color: #277076;
+    color: #fff;
+  }
+  
+  nav ul
+  {
+    width: 100%;
+    padding: 0;
+  }
+  
+  
+  
+  /* Header */
+  
+  header 
+  {
+    margin-bottom: 10px;
+  }
+  
+  header h1
+  {
+    font-size: 40px;
+  }
+  
+  
+  
+  /* Main & Side Bar */
+  .leftColumn, .sideBar
+  {
+    box-sizing: border-box;
+    width: 100%;
+    float: none;
+  }
+  
+  
+  
+  /* Image Gallery */
+  
+  .imageGallery img
+  {
+    width: 100%;
+  }
+  
+}
+
+
+
+
+/* Responsive Rules - Max Width 580 */
+
+@media only screen and (max-width: 580px)
+{
+  /* Nav */
+  
+  nav a
+  {
+    padding: 4px 0;
+  }
+  
+  
+  
+  /* Header */
+  
+  header
+  {
+    height: 200px;
+  }
+  
+  header h1
+  {
+    padding-top: 60px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
