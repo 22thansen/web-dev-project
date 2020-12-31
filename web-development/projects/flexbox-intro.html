@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanner Hansen | Flexbox Intro</title>
+  
+  <style>
+    
+    * {
+      font-family: verdana;
+      margin: 0;
+    }
+    
+    body {
+      background: #444;
+    }
+    
+    
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #222;
+    }
+    
+    .box {
+      min-width: 200px;
+      padding: 10px;
+      margin: 20px;
+      height: 100px;
+    }
+    
+    .one {
+      flex-grow: 1;
+      background-color: mediumseagreen;
+      
+    }
+    
+    .two {
+      flex-grow: 3;
+      background-color: lightgreen;
+      
+    }
+    
+    .three {
+      flex-grow: 2;
+      background-color: mediumspringgreen;
+      
+    }
+    
+    
+    
+  </style>
+  
+</head>
+
+  
+<body>
+  
+  <div class="flex-container">
+    <div class="box one">1</div>
+    <div class="box two">2</div>
+    <div class="box three">3</div>
+  </div>
+  
+</body>
+
+</html>
