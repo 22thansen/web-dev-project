@@ -1,0 +1,334 @@
+/* * *  Global  * * */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Comfortaa', sans-serif, fantasy, monospace;
+  font-size: 18px;
+  background: #fff;
+}
+
+section {
+  padding: 3em 6em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Passion One', fantasy;
+  font-size: 4em;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Passion One', fantasy;
+  font-size: 3.25em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+a.btn {
+  background-color: red;
+  padding: 15px 25px;
+  border: 3px solid black;
+  border-radius: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color, color, 0.1s linear;
+}
+
+a.btn:hover {
+  background-color: white;
+  color: red;
+}
+
+
+/* * *  Header & Nav * * */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+}
+
+header img {
+  width: 200px;
+  color: dodgerblue; /* doesnt do anything but instructions say to put it*/
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+header nav ul li {
+  margin-left: 1em;
+}
+
+header nav a {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+
+/* * *  Hero  * * */
+
+.hero {
+  background-image: url("images/bike_hero.jpg");
+  background-size: cover;
+  height: 80vh;
+  padding: 3em;
+}
+
+.hero h1 {
+  margin-bottom: 0.5em;
+  color: #222;
+}
+
+/* No styling needed here
+.hero a.btn {
+  
+}
+*/
+
+
+/* * *  How it Works  * * */
+
+.how-it-works .flex-item {
+  flex-basis: 20%;
+}
+
+.how-it-works img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.how-it-works p {
+  font-size: 22px;
+}
+
+
+/* * *  Who We Are  * * */
+
+.who-we-are {
+  background: #adc5e4;
+}
+
+.who-we-are .flex-container {
+  align-items: flex-start;
+}
+
+#who-we-are-info {
+  flex-basis: 48%;
+}
+
+#who-we-are-img-container {
+  flex-basis: 48%;
+  margin-top: 1em;
+}
+
+.who-we-are img {
+  border: 6px solid brown;
+  width: 96%;
+}
+
+.who-we-are ul {
+  list-style-type: none;
+}
+
+.who-we-are i {
+  color: red;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+
+/* * *  Testimonials  * * */
+
+.testimonial .flex-container {
+  align-items: stretch;
+}
+
+.testimonial .flex-item {
+  flex-basis: 48%;
+}
+
+.testimonial .client-name {
+  font-weight: bold;
+  color: #282828;
+}
+
+.testimonial i {
+  float: left;
+  margin: 0.4em 0.4em 0 0;
+  font-size: 2.7em;
+  color: red;
+}
+
+
+/* * *  Ready To Sell?  * * */
+
+.ready-to-sell {
+  background-color: #adc5e4;
+  text-align: center;
+  padding: 4em 0em 6em 0em;
+}
+
+.ready-to-sell .flex-container {
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* * *  Brand Logos  * * */
+
+.brands {
+  background-color: #ddd;
+}
+
+.brands .flex-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brands .flex-item {
+  width: 10%;
+}
+
+
+/* * *  Footer  * * */
+
+footer {
+  background: #282828;
+  color: white;
+  text-align: center;
+  padding: 3em 0em;
+}
+
+footer ul a span {
+  display: none;
+}
+
+footer i {
+  color: red;
+  font-size: 2em;
+}
+
+footer i:hover {
+  color: darkred;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 0 1em;
+}
+
+
+/* * *  Media Queries  * * */
+
+@media only screen and (max-width: 767px) {
+  
+  body {
+    font-size: 16px;
+  }
+  
+  section {
+    padding: 1em;
+  }
+  
+  .flex-container, header, header nav ul {
+    flex-direction: column;
+  }
+  
+  .brands {
+    display: none;
+  }
+  
+  nav {
+    width: 100%;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+    padding: 0.5em;
+  }
+  
+  .hero {
+    background-image: url("images/bike_hero_mobile.jpg");
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+  }
+  
+  .how-it-works img {
+    max-width: 50%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
