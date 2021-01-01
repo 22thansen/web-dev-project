@@ -11,13 +11,237 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Links -->
-  <link rel="stylesheet" href="styles.css">
+  <!-- External CSS: <link rel="stylesheet" href="styles.css"> -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@900&family=Comfortaa:wght@500&display=swap" rel="stylesheet">
 
   <!-- Scripts -->
   <script src="https://kit.fontawesome.com/eac12758dd.js" crossorigin="anonymous"></script>
+  
+  <!-- Internal CSS -->
+  <style>
+    
+    /****************/
+    /***** Body *****/
+    /****************/
 
+    body {
+      margin: 0;
+
+    }
+
+    /****************/
+    /**** Header ****/
+    /****************/
+
+    header {
+      background: #444;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header div {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      height: 50px;
+      margin-right: 20px;
+      margin-top: 8px;
+    }
+
+    header h1 {
+      font-size: 3.4em;
+      margin: 0;
+      justify-content: center;
+      font-family: 'Big Shoulders Inline Display', cursive;
+    }
+
+    header nav {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      align-self: center;
+      padding: 0;
+    }
+
+    header nav ul li {
+      margin-right: 10px;
+      display: inline;
+    }
+
+    header nav a {
+      color: white;
+      font-size: 20px;
+      font-family: sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding-bottom: 1px;
+    }
+
+    header nav a:hover {
+      color: #82D4FA;
+    }
+
+    header nav div.social {
+      align-self: center;
+    }
+
+    header nav i {
+      margin-left: 10px;
+    }
+
+
+    /****************/
+    /***** Hero *****/
+    /****************/
+
+    section.hero {
+      background-image: url(images/hero.jpg);
+      background-size: cover;
+      height: 50vh;
+    }
+
+    section.hero h2 {
+      color: white;
+      font-size: 3em;
+      text-align: right;
+      padding: 100px 120px 0 0;
+      text-shadow: 4px 4px 8px #444;
+      margin-top: 0;
+      font-family: 'Comfortaa', cursive;
+    }
+
+
+    /****************/
+    /* Main Content */
+    /****************/
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    main section {
+      flex-basis: 250px;
+      flex-grow: 1;
+      margin: 10px;
+      border: 6px double #444;
+      border-radius: 25px;
+      padding: 10px;
+      color: #444;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    main section h3 {
+      font-size: 1.5em;
+      text-align: center;
+      font-family: 'Comfortaa', cursive;
+    }
+
+    main section img {
+      width: 100%;
+    }
+
+    main section p {
+      font-size: 1.2em;
+      font-family: 'Comfortaa', cursive;
+    }
+
+
+    /****************/
+    /**** Footer ****/
+    /****************/
+
+    footer {
+      background-color: #444;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    footer p {
+      margin: 4px 0;
+      font-family: sans-serif;
+    }
+
+    footer p i {
+      margin-right: 8px;
+    }
+
+
+    /*****************/
+    /* Media Queries */
+    /*****************/
+
+    @media screen and (max-width: 1024px) {
+
+      header {
+        flex-direction: column;
+      }
+
+      section.hero h2 {
+        text-align: center;
+        padding: 60px 0 0 0;
+      }
+
+    }
+
+    @media screen and (max-width: 768px) {
+
+      header {
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+
+      }
+
+      header nav {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      header nav ul {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 8px;
+        width: 100%;
+      }
+
+      header nav ul li {
+        display: block;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        border-bottom: 1px solid white;
+      }
+
+      header nav ul li:hover {
+        background: #222;
+      }
+
+      section.hero h2 {
+        text-align: center;
+        padding: 60px 0 0 0;
+        font-size: 2.4em;
+      }
+
+    }
+
+  </style>
+  
 </head>
 
 

@@ -95,6 +95,7 @@ section.hero h2 {
   padding: 100px 120px 0 0;
   text-shadow: 4px 4px 8px #444;
   margin-top: 0;
+  font-family: 'Comfortaa', cursive;
 }
 
 
@@ -122,6 +123,7 @@ main section {
 main section h3 {
   font-size: 1.5em;
   text-align: center;
+  font-family: 'Comfortaa', cursive;
 }
 
 main section img {
@@ -130,6 +132,7 @@ main section img {
 
 main section p {
   font-size: 1.2em;
+  font-family: 'Comfortaa', cursive;
 }
 
 
@@ -159,6 +162,62 @@ footer p i {
 /*****************/
 /* Media Queries */
 /*****************/
+
+@media screen and (max-width: 1024px) {
+  
+  header {
+    flex-direction: column;
+  }
+  
+  section.hero h2 {
+    text-align: center;
+    padding: 60px 0 0 0;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+  header {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+  
+  header nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  header nav ul {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 8px;
+    width: 100%;
+  }
+  
+  header nav ul li {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+  
+  header nav ul li:hover {
+    background: #222;
+  }
+  
+  section.hero h2 {
+    text-align: center;
+    padding: 60px 0 0 0;
+    font-size: 2.4em;
+  }
+  
+}
+
+
 
 
 
