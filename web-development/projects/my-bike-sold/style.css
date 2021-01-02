@@ -67,6 +67,26 @@ a.btn:hover {
   color: red;
 }
 
+table {
+  border-collapse: collapse;
+  text-align: left;
+  margin-left: 1em;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 6px 8px;
+}
+
+th {
+  font-weight: bold;
+}
+
+hr {
+  border: 2px dashed red;
+}
+
+
 
 /* * *  Header & Nav * * */
 
@@ -313,6 +333,29 @@ footer ul li {
   .how-it-works img {
     max-width: 50%;
   }
+  
+  
+  table {
+    margin: 0;
+  }
+  
+  /*
+  .bike .flex-container {
+    align-items: center;
+  }
+  */
+  
+  .bike .flex-item {
+    flex-basis: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  
+  .bike .right-half {
+    margin-top: 1.5em;
+  }
+  
   
 }
 
